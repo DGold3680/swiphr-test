@@ -11,10 +11,10 @@ export default function Sidebar() {
         </div>
         <div className="mb-6">
           <Navlink linkText={"Home"} iconImg={"../home-icon.svg"} />
-          <Dropdown title={"Orders"} iconImg={"../order-icon.svg"} contents={["All Products","Categories","Attributes","Gift Card","Purchase links"]}/> 
+          <Dropdown title={"Orders"} iconImg={"../order-icon.svg"}/> 
           <Navlink linkText={"Subscriptions"} iconImg={"../reload-icon.svg"} />
           <Navlink linkText={"Customers"} iconImg={"../customer-icon.svg"} />
-          <Dropdown title={"Products"} iconImg={"../product-icon.svg"} />
+          <Dropdown title={"Products"} iconImg={"../product-icon.svg"} contents={["All Products","Categories","Attributes","Gift Card","Purchase links"]}/>
           <Dropdown title={"Discount"} iconImg={"../discount-icon.svg"} />
           <Navlink linkText={"Reporting"} iconImg={"../graph-icon.svg"} />
         </div>
